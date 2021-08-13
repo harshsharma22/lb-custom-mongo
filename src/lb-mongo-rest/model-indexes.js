@@ -20,9 +20,9 @@ async function modelIndexes(model, config) {
       }
     });
     // const response = await model.collection.createIndex({name: 1});
-    console.log('queryArr-------', queryArr.length);
+   // console.log('queryArr-------', queryArr.length);
     const response = await Promise.all(queryArr);
-    console.log('response-----------', response);
+   // console.log('response-----------', response);
   }
 };
 
